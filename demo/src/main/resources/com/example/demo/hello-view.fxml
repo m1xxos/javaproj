@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <AnchorPane layoutY="97.0" prefHeight="303.0" prefWidth="700.0" style="-fx-background-color:#fafafa;">
+            <children>
+                <Label layoutX="242.0" layoutY="44.0" text="Привет мир!" textFill="#8a8a8a"> <font>
+                    <Font name="Lobster" size="37.0" />
+                </font>
+                </Label>
+                <ImageView fx:id="imageButtonHome" fitHeight="99.0" fitWidth="90.0"
+                           layoutX="305.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+                </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="261.0" layoutY="14.0" text="itProger" textFill="WHITE"> <font>
+            <Font name="Lobster" size="56.0" />
+        </font>
+        </Label>
+    </children>
+</AnchorPane>

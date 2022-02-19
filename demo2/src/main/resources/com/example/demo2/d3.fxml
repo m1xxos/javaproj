@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.HelloController">
+   <children>
+      <ImageView fx:id="image" fitHeight="104.0" fitWidth="100.0" layoutX="50.0" layoutY="37.0">
+         <image>
+            <Image url="https://web-zoopark.ru/wp-content/uploads/2018/10/1-464.jpg"/>
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
